@@ -1,0 +1,317 @@
+<HTML>
+<HEAD>
+  <TITLE>mapa probabilidad.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "a, Mapa Conceptual, cmap, CmapTools, IHMC, probabilidad 1,  Probabilidad contraria P(-A) = 1-P(A),  Independientes,  P(s) =1 significa que el suceso es bastante probable,  Dependencia de eventos P(A|B) = P(AnB)/P(B),  Definición de suceso,  2. Sucesos y tipos de suceso,  Contrario,  Compuesto,  Seguro,  P(S),  Dependientes,  Definición de axioma,  Probabilidad,  Newton, usado en la mecánica clásica,  Indicar el grado de posibilidad de que ocurra dicho suceso,usando valores numéricos entre 0 y 1.,  Compatible,  Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable.,  Unión,  Peano, usado en la geometría aritmética,  Concepto de probabilidad de un suceso">
+  <meta NAME = "DESCRIPTION"        CONTENT = "Este Cmap, tiene información relacionada con: probabilidad 1, Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable. Ejemplos Peano, usado en la geometría aritmética, Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable. Ejemplos Euclides, usado en geometría clásica, P(S) ???? P(s) = 0, significa que el suceso es poco probable, Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Imposible, 1. Axiomas Definición Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable., 3. Probabilidad de un suceso Sirve para Indicar el grado de posibilidad de que ocurra dicho suceso,usando valores numéricos entre 0 y 1., 4. Leyes de las probabilidades Son Independencia de eventows P(AnB) = P(A)*P(B), Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable. Ejemplos Newton, usado en la mecánica clásica, Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Imposible, Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Compatible, 4. Leyes de las probabilidades Son Dependencia de eventos P(A|B) = P(AnB)/P(B), Probabilidad Reglas para el manejo de las probabilidades 4. Leyes de las probabilidades, Probabilidad Probabilidad como sistema axiomático 1. Axiomas, Indicar el grado de posibilidad de que ocurra dicho suceso,usando valores numéricos entre 0 y 1. Se denota como P(S), Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Compuesto, Unión ???? Mutualmente excluyentes P(AuB) = P(A)+P(B), P(S) ???? P(s) =1 significa que el suceso es bastante probable, Probabilidad ¿Cómo asignar valor de probabilidad a un evento? 3. Probabilidad de un suceso, Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Contrario, Unión ???? Eventos P(AuB) = P(A)-P(B)-P(AnB)">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+Este Cmap, tiene información relacionada con: probabilidad 1, Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable. Ejemplos Peano, usado en la geometría aritmética, Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable. Ejemplos Euclides, usado en geometría clásica, P(S) ???? P(s) = 0, significa que el suceso es poco probable, Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Imposible, 1. Axiomas Definición Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable., 3. Probabilidad de un suceso Sirve para Indicar el grado de posibilidad de que ocurra dicho suceso,usando valores numéricos entre 0 y 1., 4. Leyes de las probabilidades Son Independencia de eventows P(AnB) = P(A)*P(B), Punto de partida de un razonamiento, o afirmación, considerado como evidente o no demostrable. Ejemplos Newton, usado en la mecánica clásica, Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Imposible, Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Compatible, 4. Leyes de las probabilidades Son Dependencia de eventos P(A|B) = P(AnB)/P(B), Probabilidad Reglas para el manejo de las probabilidades 4. Leyes de las probabilidades, Probabilidad Probabilidad como sistema axiomático 1. Axiomas, Indicar el grado de posibilidad de que ocurra dicho suceso,usando valores numéricos entre 0 y 1. Se denota como P(S), Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Compuesto, Unión ???? Mutualmente excluyentes P(AuB) = P(A)+P(B), P(S) ???? P(s) =1 significa que el suceso es bastante probable, Probabilidad ¿Cómo asignar valor de probabilidad a un evento? 3. Probabilidad de un suceso, Conjunto de posibles resultados que se pueden dar en un experimento. Tipos de suceso Contrario, Unión ???? Eventos P(AuB) = P(A)-P(B)-P(AnB)
+
+</noscript>
+
+<map name="mapa probabilidad.html">
+  <area shape="rect"
+        href="1XJXZJSP8I277LTBGI6FHItextIhtml"
+        onClick="popUpEvt(event,'1XJXZJSP8I277LTBGI6FHItextIhtml'); return false;"
+        coords="874,346,892,364">
+  <area shape="rect"
+        href="1XJXYRLDGI1GF7168I42FItextIhtml"
+        onClick="popUpEvt(event,'1XJXYRLDGI1GF7168I42FItextIhtml'); return false;"
+        coords="184,254,202,272">
+  <area shape="rect"
+        href="1XJY2BP1FI2BW2DHQI8VNItextIhtml"
+        onClick="popUpEvt(event,'1XJY2BP1FI2BW2DHQI8VNItextIhtml'); return false;"
+        coords="322,695,340,713">
+  <area shape="rect"
+        href="1XJY1XL7GIW79MDSI725ItextIhtml"
+        onClick="popUpEvt(event,'1XJY1XL7GIW79MDSI725ItextIhtml'); return false;"
+        coords="1059,348,1077,366">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#mapa probabilidad.html"
+             SRC="mapa probabilidad.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1XJXZJSP8I277LTBGI6FHItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://aleph.org.mx/que-es-suceso-o-evento-en-estadistica "TITLE="">
+      Definición de suceso
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1XJXYRLDGI1GF7168I42FItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://es.thefreedictionary.com/axioma "TITLE="">
+      Definición de axioma
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1XJY2BP1FI2BW2DHQI8VNItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://recursostic.educacion.es/secundaria/edad/3esomatematicas/3quincena12/3quincena12_contenidos_2a.htm#:~:text=La%20probabilidad%20de%20un%20suceso,%2C%20P(E)%3D1. "TITLE="">
+      Probabilidad de un suceso
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1XJY1XL7GIW79MDSI725ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://felipehdz01.github.io/Probabilidad-2021-3/ejemplos%20suceso.html "TITLE="">
+      Ejemplos de sucesos
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
